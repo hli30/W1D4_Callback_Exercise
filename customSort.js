@@ -26,7 +26,7 @@ students.sort(function(a, b) {
   if (nameA > nameB) {
     return 1;
   }
-  return a.age - b.age;
+  return b.age - a.age;
 });
 
 console.log(students);
